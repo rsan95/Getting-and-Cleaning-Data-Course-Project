@@ -58,4 +58,3 @@ colmeans<- cbind(subject.activity, colmeans)
 
 ## Tidy data
 write.table(dataset, file="dataset1.txt", row.names = FALSE)
-write.table(colmeans, file="dataset2.txt", row.names = FALSE)
